@@ -1,0 +1,39 @@
+#portfolio {
+	background : #006633;
+	padding : 100px 150px;
+	@media #{$mobile}{
+		padding : 100px 25px;
+	}
+	@media #{$tablet}{
+		padding : 100px 50px;
+	}
+	.title {
+		color : #fce70d;
+		margin-bottom : 50px;
+		@media #{$mobile}{
+			margin-bottom: 20px;
+		}
+	}
+
+	h4 {
+		@media #{$mobile}{
+			font-size: 15px !important;
+		}	
+		@media #{$tablet}{
+			font-size: 22px !important;
+		}	
+	}
+
+	h4, h5 {
+		color : white;
+	}
+
+	h5 {
+		padding-left : 30px;
+		font-weight: lighter;
+		@media #{$mobile}{
+			padding-left: 10px;
+			font-size: 13px;
+		}	
+	}
+}

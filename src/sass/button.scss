@@ -1,0 +1,46 @@
+.btn {
+	cursor : pointer;
+	transition : 0.1s;
+	border-radius : 10px;
+	&.green-default {
+		background-color	: #009933;
+		color 				: white;
+		border 				: none;
+		box-shadow			: 0 8px #006633;
+		border-radius 		: 10px;
+		&:hover {
+			background-color 	: #009933;
+			color 				: #363636;
+		}
+		&:active:focus {
+			background-color: #009933;
+  			box-shadow: 0 4px #006633;
+			transform: translateY(4px);
+		}
+		&:focus {
+			background-color	: #009933;
+			box-shadow			: 0 8px #006633;
+		}
+	}
+
+	&.yellow-default {
+		border-radius 		: 10px;
+		background-color	: #FCE70D;
+		color 				: #363636;
+		border 				: none;
+		box-shadow			: 0 8px #999900;
+		&:hover {
+			background-color 	: #FCE70D;
+			color 				: white;
+		}
+		&:active:focus {
+			background-color: #FCE70D;
+  			box-shadow: 0 4px #999900;
+			transform: translateY(4px);
+		}
+		&:focus {
+			background-color	: #FCE70D;
+			box-shadow			: 0 8px #999900;
+		}
+	}
+}

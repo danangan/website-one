@@ -1,0 +1,48 @@
+// Variables
+// MEDIA QUERIES
+$tablet 	: "(min-width:768px) and (max-width :1023px)";
+$mobile 	: '(max-width:767px)';
+
+@import 'header';
+@import 'landing-page';
+@import 'button';
+@import 'footer';
+@import 'about-us';
+@import 'portfolio';
+@import 'license';
+@import 'contact-us';
+@import 'gallery';
+
+// COMMON STYLING
+ul {
+	list-style-type: none;
+}
+
+@media #{$mobile}{
+	h1 {
+		font-size: 40px!important;
+	}
+	h2 {
+		font-size: 27px!important;
+	}
+	h4 {
+		font-size: 20px!important;
+	}
+	h5 {
+		font-size: 18px!important;
+	}
+}
+
+
+@media #{$tablet}
+{
+	h1 {
+		font-size: 50px!important;
+	}
+	h2 {
+		font-size: 43px!important;
+	}
+	h4 {
+		font-size: 30px!important;
+	}
+}

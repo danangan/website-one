@@ -1,0 +1,62 @@
+#contact-us {
+	padding : 100px;
+	background : #006633;
+	@media #{$mobile}{
+		padding: 100px 20px;
+	}
+	@media #{$tablet}{
+		padding: 100px 50px;
+	}
+	.title {
+		text-align: left;
+		color : #FCE70D;
+		margin-bottom : 30px;
+		@media #{$mobile}{
+			text-align: center;
+		}
+	}
+
+	.location {
+		margin-bottom : 15px;
+	}
+
+	.address {
+		@media #{$mobile}{
+			margin-top: 20px;
+			h4, h5 {
+				text-align: center;
+			}
+		}
+	}
+
+	.row {
+		.subtitle {
+			@media #{$mobile}{
+				text-align: center;
+				margin-top: 20px;
+			}
+			text-transform : uppercase;
+			color : #FCE70D;
+			font-weight: bold;
+			margin-bottom: 15px;
+		}
+
+		h4 {
+			color : #FCE70D;
+			@media #{$mobile}{
+				text-align: center;
+			}
+		}
+
+		h5 {
+			color : white;
+			font-weight: lighter;
+			&.name {
+				font-weight: bold;
+			}
+			@media #{$mobile}{
+				text-align: center;
+			}
+		}
+	}
+}
